@@ -1,4 +1,4 @@
-package ru.spbstu.telematics.java;
+package main;
 
 import java.io.*;
 
