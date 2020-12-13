@@ -1,8 +1,5 @@
 package test.java.ru.spbstu.telematics;
 
-import java.io.*;
-import java.util.Random;
-
 import org.junit.*;
 import main.java.ru.spbstu.telematics.MyTreeSet;
 
@@ -10,7 +7,6 @@ import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.jupiter.api.BeforeAll;
 
 import java.util.*;
 
