@@ -21,7 +21,6 @@ public static void luDecomposition(double [][]mat, double []B, int n, int p, dou
              {
                 double sum = 0;
      			int max = (0 > j - p) ? 0 : j - p;
-     			//System.out.print("K от " + max + " до " + i + "\n");
                 for (int k = max; k < i; k++){
                 System.out.print("K = " + k + " j = " + j + "\n");
                     sum += (lower[i][k] * upper[k][j]);
@@ -33,7 +32,6 @@ public static void luDecomposition(double [][]mat, double []B, int n, int p, dou
              for (int j = i; j < min; j++) {
                 double sum = 0;
      			int max = (0 > j - p) ? 0 : j - p;
-     			//System.out.print("K от " + max + " до " + i + "\n");
                 for (int k = max; k < i; k++)
                     sum += (lower[j][k] * upper[k][i]);
                 lower[j][i] = (mat[j][i] - sum) / upper[i][i];
