@@ -1,16 +1,16 @@
 package test.ru.spbstu.telematics.java;
 
-import ru.spbstu.telematics.java.MatrixHelper;
-import ru.spbstu.telematics.java.Slae;
-/*
+import main.ru.spbstu.telematics.java.MatrixHelper;
+import main.ru.spbstu.telematics.java.Slae;
+
 import org.junit.*;
 import org.junit.Assert.*;
 import org.junit.Before;
-import org.junit.Test;*/
+import org.junit.Test;
 
 
 public class Test {
-    /*@Before
+    @Before
         public void setUp() {
             System.out.println("Code executes before each test method");
         }
@@ -55,5 +55,5 @@ public class Test {
     @After
         public void afterMethod() {
             System.out.println("Code executes after each test method");
-        }*/
+        }
 }
